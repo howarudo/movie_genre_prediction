@@ -1,7 +1,7 @@
 # Movie Genre Prediction
 Movie Genre Prediction kicked-off as a final project in the [Le Wagon coding bootcamp](https://www.lewagon.com/tokyo/data-science-course). After the bootcamp, I decided to fork the project and explore other methods to combine machine learning models on multimodal models.
 
-Huge credits to my teammates who worked extremely hard for this project! Would not have finished the project in time for the presentation without their hard work!
+Huge shoutout to my teammates who worked extremely hard for this project! Would not have finished the project in time for the presentation without their hard work!
 
 ### Teammates during bootcamp
 * [Jess](https://github.com/chooj202)
@@ -38,25 +38,36 @@ Movie Genre Prediction aims to predict movie genres only by its **Poster** and *
 
 ## Getting Started
 
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
+1. Clone this repo
 
-    *If using offline data mention that and how they may obtain the data from the froup)*
+2. Create a virtual environment for this project with pyenv. We recommend a python version of later than 3.10.6
+```
+pyenv virtualenv <YOUR_PYTHON_VERSION> movie_genre_prediction
+pyenv local movie_genre_prediction
+pip install --upgrade pip
+```
 
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
+3. Install required libraries
+```
+make reinstall_package
+```
 
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*
+4. Copy .env.sample as .env file and fill in your cloud details
+```
+cp .env.sample .env
+```
 
-5. Follow setup [instructions](Link to file)
+5. Load local variables with direnv (Run the code below if you're using zsh)
+```
+eval "$(direnv hook zsh)"
+direnv allow .
+```
 
-## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
+6. Create a new project in GCP (allow GCR, BQ and other services). Not going to the details of this.
 
 
 ## Contact
-* If you haven't joined the SF Brigade Slack, [you can do that here](http://c4sf.me/slack).
-* Our slack channel is `#datasci-projectname`
-* Feel free to contact team leads with any questions or if you are interested in contributing!
+Feel free to contact me through any of the following mediums!😁
+* [Personal Website](howarudo.github.io)
+* [Twitter](https://twitter.com/howarudo)
+* Email: **howarudo(at)gmail.com**

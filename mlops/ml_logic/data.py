@@ -69,11 +69,10 @@ def get_image_array_multimodal(df):
     image_array = np.zeros((df.shape[0],width, height, 3,), dtype=np.float32)
     unidentified_count = 0
     not_found_count = 0
-    print(f"total: {df.shape[0]}")
     for i in tqdm(range(df.shape[0])):
         try:
             folder = df["location"][i]
-            image_path = f"../raw_data/large_dataset/{folder}/{df['imdb_id'][i]}.jpg"
+            image_path = f"raw_data/large_dataset/{folder}/{df['imdb_id'][i]}.jpg"
             img = image.load_img(image_path, target_size=(width, height, 3))
             input_arr = np.asarray(image.img_to_array(img))
             image_array[i] = input_arr
@@ -86,7 +85,7 @@ def get_image_array_multimodal(df):
             df.drop(index=i)
             pass
     print(f"{unidentified_count} files were unidentified\n{not_found_count} files were not found")
-    print(f"we got {len(image_array)}")
+    print(f"we got {len(image_array)}/{df.shape[0]}")
     return df, image_array
 
 

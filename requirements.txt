@@ -1,13 +1,6 @@
 notebook
-# wheel
-# nbresult
 colorama
-# ipdb
-# ipykernel
-# yapf
 matplotlib
-# pygeohash
-# pytest
 seaborn
 datasets
 transformers
@@ -25,7 +18,6 @@ torch
 google-cloud-bigquery==3.11.4
 google-cloud-storage==2.10.0
 db-dtypes
-# pyarrow
 tqdm
 regex
 streamlit
