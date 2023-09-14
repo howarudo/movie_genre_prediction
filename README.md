@@ -4,8 +4,8 @@ Movie Genre Prediction kicked-off as a final project in the [Le Wagon coding boo
 Huge shoutout to my teammates who worked extremely hard for this project! Would not have finished the project in time for the presentation without their hard work!
 
 ### Teammates during bootcamp
-* [Jess](https://github.com/chooj202)
-* [Yinghui](https://github.com/yinghuing)
+* [Jess](http://github.com/chooj202)
+* [Yinghui](http://github.com/yinghuing)
 
 #### -- Project Status: Active
 
@@ -40,7 +40,7 @@ Movie Genre Prediction aims to predict movie genres only by its **Poster** and *
 
 1. Clone this repo
 
-2. Create a virtual environment for this project with [pyenv](https://github.com/pyenv/pyenv#installation). We recommend a python version of later than 3.10.6
+2. Create a virtual environment for this project with [pyenv](http://github.com/pyenv/pyenv#installation). We recommend a python version of later than 3.10.6
 ```
 pyenv virtualenv <YOUR_PYTHON_VERSION> movie_genre_prediction
 pyenv local movie_genre_prediction
