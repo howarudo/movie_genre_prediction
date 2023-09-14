@@ -1,5 +1,5 @@
 # Movie Genre Prediction
-Movie Genre Prediction kicked-off as a final project in the [Le Wagon coding bootcamp](https://www.lewagon.com/tokyo/data-science-course). After the bootcamp, I decided to fork the project and explore other methods to combine machine learning models on multimodal models.
+Movie Genre Prediction kicked-off as a final project in the [Le Wagon coding bootcamp](https://www.lewagon.com/tokyo/data-science-course). After the bootcamp, I decided to fork the project and explore other methods to combine machine learning multimodal models.
 
 Huge shoutout to my teammates who worked extremely hard for this project! Would not have finished the project in time for the presentation without their hard work!
 
@@ -27,14 +27,14 @@ Huge shoutout to my teammates who worked extremely hard for this project! Would 
 There are **two** ways to look at the background of Movie Genre Prediction.
 
 **Business side:**
-* Movie distributors such as Warner Bros. distribute their movies without genres tagged. In turn, streaming platforms such as Netflix and Disney+ has to hire "movie experts" to tag the genres. To reduce this long and mundane chore, we decided to explore the possibilities of using Machine Learning to predict the genres.
+* Movie distributors such as Warner Bros. distribute their movies without genres tagged. In turn, streaming platforms such as Netflix and Disney+ have to hire "movie experts" to tag the genres. To reduce this long and tiring work, and save resources, we decided to explore the possibilities of using Machine Learning to predict the genres.
 
 **Technical side:**
-* Pre-trained Neural Network models such as BERT and ResNet-50 showed remarkable results on identifying features of text and images respectively. And with the rise of these models, numerous researchers has started experimenting on combining these models into one huge model, a multimodal model. Movie Genre Prediction also explores this new field by using movie genres as a target.
+* Pre-trained Neural Network models such as BERT and ResNet-50 showed remarkable results on identifying features of text and images respectively. And with the rise of these models, numerous researchers have started experimenting on combining these models into one huge model, a multimodal model. Movie Genre Prediction also explores this new field by using movie genres as a target.
 
 
 ### Description
-Movie Genre Prediction aims to predict movie genres only by its **Poster** and **Synopsis**. Therefore, fundamentally, Movie Genre Prediction is a **multimodal multilabel classifier**. Multilabel classifiers inherently comes with challenges such as unbalanced dataset and high target dimensionality. Similarly, multimodal models also comes with challenges as there is no clear way to best combine these models and is computationally demanding. Hence, Movie Genre Prediction aims to explore and compare the various ways of intergrating independent models while building a cohesive data pipeline to support the computational challenges.
+Movie Genre Prediction aims to predict movie genres only by its **Poster** and **Synopsis**. Therefore, fundamentally, Movie Genre Prediction is a **multimodal multilabel classifier**. Multilabel classifiers inherently comes with challenges such as unbalanced dataset and high target dimensionality. Similarly, **multimodal models** also comes with challenges as there is no clear way to best combine these models and is computationally demanding. Hence, Movie Genre Prediction aims to explore and compare the various ways of intergrating independent models while building a cohesive data pipeline to support the computational challenges.
 
 ## Getting Started
 
