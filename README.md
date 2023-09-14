@@ -1,11 +1,15 @@
+<head>
+<base target="_blank">
+</head>
+
 # Movie Genre Prediction
-Movie Genre Prediction kicked-off as a final project in the [Le Wagon coding bootcamp](https://www.lewagon.com/tokyo/data-science-course){:target="_blank"}. After the bootcamp, I decided to fork the project and explore other methods to combine machine learning multimodal models.
+Movie Genre Prediction kicked-off as a final project in the [Le Wagon coding bootcamp](https://www.lewagon.com/tokyo/data-science-course). After the bootcamp, I decided to fork the project and explore other methods to combine machine learning multimodal models.
 
 Huge shoutout to my teammates who worked extremely hard for this project! Would not have finished the project in time for the presentation without their hard work!
 
 ### Teammates during bootcamp
-* [Jess](https://github.com/chooj202){:target="_blank"}
-* [Yinghui](https://github.com/yinghuing){:target="_blank"}
+* [Jess](https://github.com/chooj202)
+* [Yinghui](https://github.com/yinghuing)
 
 #### -- Project Status: Active
 
