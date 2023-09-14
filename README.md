@@ -1,7 +1,3 @@
-<head>
-<base target="_blank">
-</head>
-
 # Movie Genre Prediction
 Movie Genre Prediction kicked-off as a final project in the [Le Wagon coding bootcamp](https://www.lewagon.com/tokyo/data-science-course). After the bootcamp, I decided to fork the project and explore other methods to combine machine learning multimodal models.
 
