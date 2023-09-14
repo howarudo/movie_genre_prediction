@@ -40,7 +40,7 @@ Movie Genre Prediction aims to predict movie genres only by its **Poster** and *
 
 1. Clone this repo
 
-2. Create a virtual environment for this project with pyenv. We recommend a python version of later than 3.10.6
+2. Create a virtual environment for this project with [pyenv](https://github.com/pyenv/pyenv#installation). We recommend a python version of later than 3.10.6
 ```
 pyenv virtualenv <YOUR_PYTHON_VERSION> movie_genre_prediction
 pyenv local movie_genre_prediction
@@ -57,7 +57,7 @@ make reinstall_package
 cp .env.sample .env
 ```
 
-5. Load local variables with direnv (Run the code below if you're using zsh)
+5. Load local variables with [direnv](https://github.com/direnv/direnv#getting-started) (Run the code below if you're using zsh)
 ```
 eval "$(direnv hook zsh)"
 direnv allow .
