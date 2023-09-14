@@ -55,6 +55,7 @@ make reinstall_package
 4. Copy .env.sample as .env file and fill in your cloud details
 ```
 cp .env.sample .env
+cp .env.yaml.sample .env.yaml
 ```
 
 5. Load local variables with [direnv](https://github.com/direnv/direnv#getting-started) (Run the code below if you're using zsh)
