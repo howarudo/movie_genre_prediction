@@ -14,12 +14,12 @@ Huge shoutout to my teammates who worked extremely hard for this project! Would 
 ### Methods Used
 * Data Engineering with GCP
 * Inferential Statistics
-* Machine Learning
+* Supervised Machine Learning
 * Predictive Modeling
 
 ### Technologies
 * Pandas, Tensorflow
-* Matplotlib
+* Pretrained models (RESNET50, Inception V3, BERT etc)
 * Google Cloud Platform (GCR, GCS, Compute Engine etc.)
 * FastAPI and Streamlit
 
