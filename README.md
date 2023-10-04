@@ -7,7 +7,7 @@ Huge shoutout to my teammates who worked extremely hard for this project! Would 
 * [Jess](https://github.com/chooj202)
 * [Yinghui](https://github.com/yinghuing)
 
-#### -- Project Status: Active
+#### -- Project Status: Paused (Due to school work...)
 
 ## Introduction
 
