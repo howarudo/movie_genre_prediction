@@ -17,6 +17,8 @@ Huge shoutout to my teammates who worked extremely hard for this project! Would 
 
 https://github.com/howarudo/movie_genre_prediction/assets/125206676/f6dd0ec3-c1d4-47a0-97c2-a8cc9cc26944
 
+[Video Link In Case Broken](https://drive.google.com/file/d/1ivuj_g4kCCkYvMpdKAxmFdSXPXiTCT1n/view?usp=sharing)
+
 ## Introduction
 
 ### Methods Used
