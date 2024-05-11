@@ -7,7 +7,15 @@ Huge shoutout to my teammates who worked extremely hard for this project! Would 
 * [Jess](https://github.com/chooj202)
 * [Yinghui](https://github.com/yinghuing)
 
-#### -- Project Status: Active
+#### -- Project Status: Frozen
+
+## System
+
+<img width="690" alt="Screenshot 2024-05-11 at 22 25 59" src="https://github.com/howarudo/movie_genre_prediction/assets/125206676/019b88db-9e76-40e2-8d4d-72e406392dd8">
+
+## Demo
+
+https://github.com/howarudo/movie_genre_prediction/assets/125206676/f6dd0ec3-c1d4-47a0-97c2-a8cc9cc26944
 
 ## Introduction
 
@@ -19,8 +27,8 @@ Huge shoutout to my teammates who worked extremely hard for this project! Would 
 
 ### Technologies
 * Pandas, Tensorflow
-* Pretrained models (RESNET50, Inception V3, BERT etc)
-* Google Cloud Platform (GCR, GCS, Compute Engine etc.)
+* Pretrained models (RESNET50, Inception V3, BERT ...)
+* Google Cloud Platform (GCR, GCS, Compute Engine ...)
 * FastAPI and Streamlit
 
 ### Background
@@ -64,11 +72,5 @@ eval "$(direnv hook zsh)"
 direnv allow .
 ```
 
-6. Create a new project in GCP (allow GCR, BQ and other services). Not going to the details of this.
+6. Create a new project in GCP (allow GCR, BQ and other services).
 
-
-## Contact
-Feel free to contact me through any of the following mediums!😁
-* [Personal Website](https://howarudo.github.io)
-* [Twitter](https://twitter.com/howarudo)
-* Email: **howarudo(at)gmail.com**
