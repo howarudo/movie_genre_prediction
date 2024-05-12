@@ -1,5 +1,26 @@
 Metadata-Version: 2.1
-Name: movie-genre-prediction
+Name: movie_genre_prediction
 Version: 0.0.12
 Summary: movie_genre_pred_api
 License: MIT
+Requires-Dist: notebook
+Requires-Dist: colorama
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: datasets
+Requires-Dist: transformers
+Requires-Dist: numpy==1.23.5
+Requires-Dist: pandas==1.5.3
+Requires-Dist: scipy==1.10.0
+Requires-Dist: scikit-learn==1.2.1
+Requires-Dist: scikit-multilearn
+Requires-Dist: tensorflow-macos==2.12.0; sys_platform == "darwin" and "ARM" in platform_version
+Requires-Dist: tensorflow==2.12.0; sys_platform == "darwin" and "ARM" not in platform_version
+Requires-Dist: tensorflow==2.12.0; sys_platform != "darwin"
+Requires-Dist: torch
+Requires-Dist: google-cloud-bigquery==3.11.4
+Requires-Dist: google-cloud-storage==2.10.0
+Requires-Dist: db-dtypes
+Requires-Dist: tqdm
+Requires-Dist: regex
+Requires-Dist: streamlit
